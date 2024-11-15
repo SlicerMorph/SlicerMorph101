@@ -25,9 +25,16 @@ Some important points about MorphoCloud On Demand sessions:
 * You can upload data to your instance by dragging and dropping individual files to the browser window. Those files will be saved under your **MyData** volume, which is located at `/media/volumes/MyData/`.
 * Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible). From here you can adjust the scaling of your display. As well as download files from the cloud to your computer using the file navigator. It is also possible to copy/paste text to/from the cloud using this interface, though it does take some getting used to.
 * For best user experience, switch to full screen mode in your browser window (not advisable if you do not have a second monitor, as you won't be able to see the zoom window).
-* For more information see the FAQ at the https://instances.morpho.cloud.
 
-**Mapping the Sample Data Drive:**
+#### MorphoCloud Desktop
+
+**A:** Shortcuts to commonly used tools and applications. From left to right, minimize/maximize open applications, 3D Slicer, Terminal (aka shell console) window, File Browser, Firefox web browser, Application Search, File Browser. </br>
+**B:** Right mouse clicking anywhere on desktop brings this menu, which lists all the applications and settings. </br>
+**C:** Shortcut to your persistent storage volume, **MyData**. The actual folder is /media/volume/MyData. </br>
+**D:** Side toolbar that gets activated by pressing the `CTRL (or CMD)` + `ALT` + `SHIFT` keys. It allows copy/paste into the remote session, browse and download files on the remote drive and adjust screen zoom levels (cut from the screenshot). </br>
+<img src="https://github.com/SlicerMorph/SlicerMorph101/blob/main/MCI_Desktop.png" width=800>
+
+#### Mapping the Sample Data Drive
 To be able to access the drive with the preloaded workshop data, you need to execute this command in a terminal window:
 
 ```
@@ -42,6 +49,7 @@ This is a one-time setup, unless the instance has to be deleted and re-created. 
 **/media/share/MorphoCloudCephShare**
 
 and it will be read-only. You should continue saving your data into the your **MyData** folder (located in /media/volumes/MyData)
+
 
 ### Day 1
 
