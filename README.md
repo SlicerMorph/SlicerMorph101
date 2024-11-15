@@ -21,9 +21,9 @@ For ideal performance, we suggest using a wired ethernet connection at your univ
 Some important points about MorphoCloud On Demand sessions:
 * Always keep your data in the **MyData** storage volume. This is your persistent storage, data stored elsewhere may get deleted.
 * You will have to extend your session approximately every 3.5h after your instance becomes online. Simply click `YES` when the popup window shows up.
-* Because the instances automatically shelve itself after 4h (unless you extend it), the next morning you will find your instance is offline. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and issue the `/unshelve` command. Based on the load, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course.
+* Because the instances automatically shelve themselves after 4h (unless you extend it), the next morning you will find your instance is offline. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and issue the `/unshelve` command. Based on the load, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course.
 * You can upload data to your instance by dragging and dropping individual files to the browser window. Those files will be saved under your **MyData** volume, which is located at `/media/volumes/MyData/`.
-* Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible). From here you can adjust the scaling of your display. As well as download files from the cloud to your computer using the file navigator. It is also possible to copy/paste text to/from the cloud using this interface, though it does take some getting used to.
+* Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible).
 * For best user experience, switch to full screen mode in your browser window (not advisable if you do not have a second monitor, as you won't be able to see the zoom window).
 
 #### MorphoCloud Desktop
