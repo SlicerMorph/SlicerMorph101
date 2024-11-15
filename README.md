@@ -22,7 +22,6 @@ Some important points about MorphoCloud On Demand sessions:
 * Always keep your data in the **MyData** storage volume. This is your persistent storage, data stored elsewhere may get deleted.
 * You will have to extend your session approximately every 3.5h after your instance becomes online. Simply click `YES` when the popup window shows up.
 * Because the instances automatically shelve themselves after 4h (unless you extend it), the next morning you will find your instance is offline. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and issue the `/unshelve` command. Based on the load, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course.
-* You can upload data to your instance by dragging and dropping individual files to the browser window. Those files will be saved under your **MyData** volume, which is located at `/media/volumes/MyData/`.
 * Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible).
 * For best user experience, switch to full screen mode in your browser window (not advisable if you do not have a second monitor, as you won't be able to see the zoom window).
 
@@ -46,9 +45,15 @@ curl https://jetstream2.exosphere.app/exosphere/assets/scripts/mount_ceph.py | s
 ```
 This is a one-time setup, unless the instance has to be deleted and re-created. Share will be mapped to:
 
-**/media/share/MorphoCloudCephShare**
+`/media/share/MorphoCloudCephShare`
 
-and it will be read-only. You should continue saving your data into the your **MyData** folder (located in /media/volumes/MyData)
+and **it will be read-only**. You should continue saving your data into the your **MyData** folder (located in `/media/volume/MyData`)
+
+#### Data transfer between your local computer and remote instance
+**Uploading to remote:** If your files are small (<100MB) and you have a stable connection, just dragging and dropping individual files to the browser window. Those files will be saved under your **MyData** volume, which is located at `/media/volumes/MyData/`. If your data is already on the cloud (e.g., MorphoSource, dropbox, google drive, etc), the fastest way is to use the Firefox browser built into the instance and directly download them to your remote session. Just remember to copy them to your `MyData`. </br>
+**Downloading from the remote:** If the file is small, you can use the interface shown above in the screenshot (Box D:), which works one file at a time. 
+
+If you have many files, or your files are large, we advise to use SFTP (Secure FTP) tools for bulk upload/download. There are many free tools, search one for your computer. Remember, any data you have generated and important for you, you should download to your own computer. 
 
 
 ### Day 1
