@@ -10,7 +10,7 @@ If you do not already have them, please obtain accounts at:
   
 GitHub and ORCID are mandatory to use MorphoCloud. MorphoSource account is required, if you want to be able to download data (you can search for data without an account). 
   
-Also you will **need a 3-button mouse (cannot emphasize this enough)** to operate 3D Slicer (or any other 3D software) effectively. Optionally, [install a preview version of Slicer with a revision number 33130 or higher.](https://download.slicer.org) on your own computer as a backup, in case you have issues with cloud connections. 
+Also you will **need a 3-button mouse (cannot emphasize this enough)** to operate 3D Slicer (or any other 3D software) effectively. Optionally, [install a preview version of Slicer with a revision number 33134 or higher.](https://download.slicer.org) on your own computer as a backup, in case you have issues with cloud connections. 
 
 Finally, having a second monitor is advised, since that will allow you to keep your zoom and cloud sessions on separate screens. 
 
