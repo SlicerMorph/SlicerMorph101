@@ -56,7 +56,7 @@ and **it will be read-only**. You should continue saving your data into the your
 If you have many files, or your files are large, we advise to use SFTP (Secure FTP) tools for bulk upload/download. There are many free tools, search one for your computer. Remember, any data you have generated and important for you, you should download to your own computer. 
 
 
-### Day 1
+### [Day 1](./Day_1.MD)
 
 ### Day 2
 
