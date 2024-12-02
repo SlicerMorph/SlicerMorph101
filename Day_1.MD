@@ -14,4 +14,12 @@ We will review these Slicer and SlicerMorph (in paranthesis) modules:
 
 **NOTE:** Remember `/media/share/MorphoCloudCephShare/SlicerMorph101` is where most of the sample data is (the big datasets). This folder is **ReadOnly**. Anything you want to save, write to `/media/volume/MyData`.
 
+**END OF DAY NOTES:** to install the VLC media player (so that you can view mp4s you have created on the cloud), open a terminal window and type the command: 
+
+```sudo apt install vlc```
+
+end then accept the proposed changes. This will be a persistent change, it will stay with you.
+M
+
+
 
