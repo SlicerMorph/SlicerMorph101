@@ -55,6 +55,11 @@ and **it will be read-only**. You should continue saving your data into the your
 
 If you have many files, or your files are large, we advise to use SFTP (Secure FTP) tools for bulk upload/download. There are many free tools, search one for your computer. Remember, any data you have generated and important for you, you should download to your own computer. 
 
+### Resources to use through out the course:
+
+1. [Official Slicer User Manual](https://slicer.readthedocs.io/en/latest/)
+2. [Official SlicerMorph Tutorials](https://github.com/SlicerMorph/Tutorials/)
+3. [Slicer community forum](https://discourse.slicer.org)
 
 ### [Day 1](./Day_1.MD)
 
