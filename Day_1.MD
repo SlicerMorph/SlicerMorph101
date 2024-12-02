@@ -19,7 +19,10 @@ We will review these Slicer and SlicerMorph (in paranthesis) modules:
 ```sudo apt install vlc```
 
 end then accept the proposed changes. This will be a persistent change, it will stay with you.
-M
 
+I am not sure what I did wrong during the session, but I did manage to get the Turtle Animation working 
+<./turtle.mp4>
+
+If you feel like experimenting on your own, I put all requisite files into a folder in the MorphoCloudCephShare (`SlicerMorph101/TurtleAnimationa_Files`)
 
 
