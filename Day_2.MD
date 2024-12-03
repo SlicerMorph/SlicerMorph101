@@ -12,12 +12,13 @@ This is a big tutorial and it is going to have two parts:
 3. Then we will interactively explore the turtle data for more of the segmentation tools in Slicer.
 
 Other modules we will investigate are:
-**Segment Statistics:** https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentstatistics.html
-**Segment Cross Sectional Area (provided by Sandbox Extension)**
-*Models:** https://slicer.readthedocs.io/en/latest/user_guide/modules/models.html
-**Textured Models:**
-**Colorize Volume (provided by Sandbox extension):** https://github.com/SlicerMorph/Tutorials/tree/main/ColorizeVolume
-**Quick Align:** https://github.com/SlicerMorph/Tutorials/tree/main/QuickAlign
+
+_ **Segment Statistics:** https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentstatistics.html
+_ **Segment Cross Sectional Area (provided by Sandbox Extension)**
+_ *Models:** https://slicer.readthedocs.io/en/latest/user_guide/modules/models.html
+_ **Textured Models:**
+_ **Colorize Volume (provided by Sandbox extension):** https://github.com/SlicerMorph/Tutorials/tree/main/ColorizeVolume
+_ **Quick Align:** https://github.com/SlicerMorph/Tutorials/tree/main/QuickAlign
 
 
 
