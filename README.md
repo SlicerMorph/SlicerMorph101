@@ -63,7 +63,7 @@ If you have many files, or your files are large, we advise to use SFTP (Secure F
 
 ### [Day 1](./Day_1.MD)
 
-### Day 2
+### [Day 2](./Day_2.MD)
 
 ### Day 3
 
