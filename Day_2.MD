@@ -16,7 +16,7 @@ Other modules we will investigate are:
 
 * **Segment Statistics:** https://slicer.readthedocs.io/en/latest/user_guide/modules/segmentstatistics.html
 * **Segment Cross Sectional Area (provided by Sandbox Extension)**
-* *Models:** https://slicer.readthedocs.io/en/latest/user_guide/modules/models.html
+* **Models:** https://slicer.readthedocs.io/en/latest/user_guide/modules/models.html
 * **Textured Models:**
 * **Colorize Volume (provided by Sandbox extension):** https://github.com/SlicerMorph/Tutorials/tree/main/ColorizeVolume
 * **Quick Align:** https://github.com/SlicerMorph/Tutorials/tree/main/QuickAlign
