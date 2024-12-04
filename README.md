@@ -65,6 +65,6 @@ If you have many files, or your files are large, we advise to use SFTP (Secure F
 
 ### [Day 2](./Day_2.MD)
 
-### Day 3
+### [Day 3](./Day_3.MD)
 
 ### Day 4 
