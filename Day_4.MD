@@ -6,8 +6,8 @@ Please fill the course evaluation at https://forms.gle/c1sRaPztoimW335U9
 
 ## Deep learning based segmentation models in Slicer:
 
-* **TotalSegmentator:** For human clinical imaging
-* **DentalSegmentator:** Cone-beam CT for dentistry
+* **TotalSegmentator:** For human clinical imaging: https://github.com/lassoan/SlicerTotalSegmentator
+* **DentalSegmentator:** Cone-beam CT for dentistry: https://github.com/gaudot/SlicerDentalSegmentator
 * **AutoSeg3d:** Model farm for different clinical modalities. Based on MONAI. https://github.com/lassoan/SlicerMONAIAuto3DSeg/releases/tag/ModelsTestResults
 * **MonaiLabel:** A client/server approach for training custom deep-learning models, and making inference from them. https://docs.monai.io/projects/label/en/latest/quickstart.html
 * **MEMOS:** E15 mice multi-organ segmentation model. https://github.com/SlicerMorph/SlicerMEMOS
