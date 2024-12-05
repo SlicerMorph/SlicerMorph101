@@ -31,7 +31,7 @@ Most of the time, all we have to do is to make sure the file paths are changed t
 ## If we have time:
 
 * Open Anatomy Export
-* Image Registration 
+* **Image Registration:** https://slicer.readthedocs.io/en/latest/user_guide/registration.html
 * Model Registration
 
 
