@@ -12,6 +12,13 @@ Please fill the course evaluation at https://forms.gle/c1sRaPztoimW335U9
 * **MonaiLabel:** A client/server approach for training custom deep-learning models, and making inference from them. https://docs.monai.io/projects/label/en/latest/quickstart.html
 * **MEMOS:** E15 mice multi-organ segmentation model. https://github.com/SlicerMorph/SlicerMEMOS
 
+To try these we need to run Slicer from the command line with these steps. First open a terminal window in the MorphoCloud then copy and paste these two lines one by one:
+1. ```export CUDA_ViSIBLE_DEVICES=0```
+2. ```/media/volume/Slicer/Slicer```
+
+Now Slicer should start and we can proceed normally.
+
+
 ## Scripting in Slicer
 * Install the `ScriptEditor` extension (to modify the scripts inside the Slicer)
 * We will use code snippets from Script Repository (Slicer Developer's guide): https://slicer.readthedocs.io/en/latest/developer_guide/script_repository.html
