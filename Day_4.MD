@@ -13,7 +13,7 @@ Please fill the course evaluation at https://forms.gle/c1sRaPztoimW335U9
 * **MEMOS:** E15 mice multi-organ segmentation model. https://github.com/SlicerMorph/SlicerMEMOS
 
 To try these we need to run Slicer from the command line with these steps. First open a terminal window in the MorphoCloud then copy and paste these two lines one by one:
-1. ```export CUDA_ViSIBLE_DEVICES=0```
+1. ```export CUDA_VISIBLE_DEVICES=0```
 2. ```/media/volume/MyData/Slicer/Slicer```
 
 Now Slicer should start and we can proceed normally and we will try to do a deep learning based segmentation of a mouse embryo. Search the extension catalogue for `MEMOS` and install SlicerMEMOS extension. After Slicer restarts, use the `Module Finder` (CTRL+F) to search for `PyTorch Utils`. We have to configure the deep-learning framework Torch (or pyTorch for it is python version) for our environment. Luckily this is fairly easy with this module. But before we do this, make sure your python window is visible (it is the little snake icon at the far right of the top tow of icons, or you can use CTRL+3). That way we can see if there are any errors associated with the libraries being installed. After enabling your python console, click on `Install PyTorch` in the module panel and the module will find and download all necessary libraries for your environment. This may take as long as 4-5 minutes. After that we will be ready to try the `MEMOS` extension. But first we need a volume to segment.
