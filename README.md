@@ -10,7 +10,7 @@ If you do not already have them, please obtain accounts at:
   
 GitHub and ORCID are mandatory to use MorphoCloud. MorphoSource account is required, if you want to be able to download data (you can search for data without an account). 
   
-Also you will **need a 3-button mouse (cannot emphasize this enough)** to operate 3D Slicer (or any other 3D software) effectively. Optionally, [install a preview version of Slicer with a revision number 33134 or higher.](https://download.slicer.org) on your own computer as a backup, in case you have issues with cloud connections. 
+Also you will **need a 3-button mouse (cannot emphasize this enough)** to operate 3D Slicer (or any other 3D software) effectively. Optionally, [install a preview version of Slicer with a revision number 33550 or higher.](https://download.slicer.org) on your own computer as a backup, in case you have issues with cloud connections. 
 
 Finally, having a second monitor is advised, since that will allow you to keep your zoom and cloud sessions on separate screens. 
 
@@ -20,8 +20,8 @@ For ideal performance, we suggest using a wired ethernet connection at your univ
 
 Some important points about MorphoCloud On Demand sessions:
 * Always keep your data in the **MyData** storage volume. This is your persistent storage, data stored elsewhere may get deleted.
-* You will have to extend your session approximately every 3.5h after your instance becomes online. Simply click `YES` when the popup window shows up.
-* Because the **instances automatically shelve themselves after 4h** (unless you extend it), **the next morning you will find your instance is offline**. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and type <br> ```/unshelve``` **to make your instance online again**. Based on the load, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course. Note that **all MorphoCloud commands are case-sensitive**, please make sure to type lower-case. 
+* You will have to extend your session approximately every 3.5h after your instance becomes online. Simply click `YES` when the popup window shows up. You can also extend your session for 4h anytime by clicking the "Extend Session" icon on your desktop. 
+* Because the **instances automatically shelve themselves after 4h** (unless you extend it), **the next morning you will find your instance is offline**. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and type <br> ```/unshelve``` **to make your instance online again**. Based on the tasks in the queue, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course. Note that **all MorphoCloud commands are case-sensitive**, please make sure to type lower-case. 
 * Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible).
 * For best user experience, switch to full screen mode in your browser window (not advisable if you do not have a second monitor, as you won't be able to see the zoom window).
 
