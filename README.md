@@ -21,7 +21,7 @@ For ideal performance, we suggest using a wired ethernet connection at your univ
 Some important points about MorphoCloud On Demand sessions:
 * Always keep your data in the **MyData** storage volume. This is your persistent storage, data stored elsewhere may get deleted.
 * You will have to extend your session approximately every 3.5h after your instance becomes online. Simply click `YES` when the popup window shows up. You can also extend your session for 4h anytime by clicking the "Extend Session" icon on your desktop. 
-* Because the **instances automatically shelve themselves after 4h** (unless you extend it), **the next morning you will find your instance is offline**. Go to your specific issues page (direct link is in the email sent to you by MorphoCloud earlier), and type <br> ```/unshelve``` **to make your instance online again**. Based on the tasks in the queue, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course. Note that **all MorphoCloud commands are case-sensitive**, please make sure to type lower-case. 
+* Because the **instances automatically shelve themselves after 4h** (unless you extend it), **the next morning you will find your instance is offline**. Go to your specific issues page (direct link is in the email sent to you by MorphoCloudPortal earlier), and type <br> ```/unshelve``` **to make your instance online again**. Based on the tasks in the queue, it may take anywhere from 2-20 minutes for your instance to become online. So make sure you do this before we start the course. Note that **all MorphoCloud commands are case-sensitive**, please make sure to type lower-case. 
 * Use the `CTRL(CMD in Mac) + ALT + SHIFT` combination to make the cloud connection side window visible (or to make it disappear, if visible).
 * For best user experience, switch to full screen mode in your browser window (not advisable if you do not have a second monitor, as you won't be able to see the zoom window).
 
@@ -30,8 +30,9 @@ Some important points about MorphoCloud On Demand sessions:
 **A:** Shortcuts to commonly used tools and applications. From left to right, minimize/maximize open applications, 3D Slicer, Terminal (aka shell console) window, File Browser, Firefox web browser, Application Search, File Browser. </br>
 **B:** Right mouse clicking anywhere on desktop brings this menu, which lists all the applications and settings. </br>
 **C:** Shortcut to your persistent storage volume, **MyData**. The actual folder is /media/volume/MyData. </br>
-**D:** Side toolbar that gets activated by pressing the `CTRL (or CMD)` + `ALT` + `SHIFT` keys. It allows copy/paste into the remote session, browse and download files on the remote drive and adjust screen zoom levels (cut from the screenshot). </br>
-<img src="https://github.com/SlicerMorph/SlicerMorph101/blob/main/MCI_Desktop.png" width=800>
+**D:** Side toolbar that gets activated by pressing the `CTRL (or CMD)` + `ALT` + `SHIFT` keys. It allows copy/paste into the remote session, browse and download files on the remote drive and adjust screen zoom levels (cut from the screenshot). 
+**E:** Click on this icon anytime to extend your session for additional 4 hours. </br>
+<img src="https://github.com/SlicerMorph/SlicerMorph101/blob/main/MCI_Desktop.png" width=1000>
 
 #### Mapping the Sample Data Drive
 To be able to access the drive with the preloaded workshop data, you need to execute this command in a terminal window:
