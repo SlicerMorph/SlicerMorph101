@@ -2,8 +2,9 @@
 
 We will go through the MorphoCloud functionality, Slicer user interface, Extension Manager, documentation and where to find help:
 
-Today's plan is to review most, if not all, these Slicer and SlicerMorph modules. Most tutorials have their own small toy datasets specified in the tutorial itself. We will also have large "real" datasetss in `/media/share/MorphoCloudCephShare/SlicerMorph101` to practice with during the course. Keep in mind that this folder is **ReadOnly**. Anything you want to save, you need to write to `/media/volume/MyData`.
+Then, for the rest of the day we will try to go through as many of the modules listed below as possible. Most tutorials have their own small toy datasets specified in the tutorial itself. Sometimes I will demonstrate functionality using the "real" large (>2GB) datasets in `/media/share/MorphoCloudCephShare/SlicerMorph101` to practice with during the course. Keep in mind that this folder is **ReadOnly**. Anything you want to save, you need to write to `/media/volume/MyData`.
 
+#### [**SlicerMorph Tutorial module:** Access these same tutorials inside the Slicer's module panel. To access go to `SlicerMorph->Documentation->Tutorials`
 #### [**Getting Data:** Shows how to use the Slicer's `Sample Data` and SlicerMorph's `ImportFromURL` modules to download and access sample data to be used in tutorials](https://github.com/SlicerMorph/Tutorials/tree/main/SampleData)
 #### [**ImageStacks:** Tutorial on how to import non-DICOM imagestacks easily into Slicer.](https://github.com/SlicerMorph/Tutorials/tree/main/ImageStacks)
 #### [**Volumes**](https://github.com/SlicerMorph/Tutorials/blob/main/Slicer_Modules/Volumes/Readme.MD)
