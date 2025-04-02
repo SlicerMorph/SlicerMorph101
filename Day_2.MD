@@ -3,8 +3,6 @@
 ## Recap & Q&A from Day 1
 Animator:
 
-Scene views:
-
 
 ## Segmentation ##
 1. Use of consistent terminology and colors for segmentation: https://github.com/SlicerMorph/Tutorials/blob/main/Segmentation/colors-and-terms/README.md
