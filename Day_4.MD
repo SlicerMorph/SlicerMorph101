@@ -5,7 +5,7 @@
 [Please fill the course evaluation](https://docs.google.com/forms/d/e/1FAIpQLSdCJTn4fymDVSr-Sh3Q7wLMXSte_KqgxuN_JHutVE_zeCmCIA/viewform?usp=dialog)
 
 ## Photogrammetry in Slicer
-* [Photogrammetry Extension User Guide and Tutorial(https://github.com/SlicerMorph/SlicerPhotogrammetry?tab=readme-ov-file#user-guide)
+* [Photogrammetry Extension User Guide and Tutorial](https://github.com/SlicerMorph/SlicerPhotogrammetry?tab=readme-ov-file#user-guide)
 * [Photogrammetry Extension Video Tutorial](https://www.youtube.com/watch?v=YRHlb0dGyNc&t=9s)
 
 ### Our paper on an inexpensive setup to do photogrammetry
