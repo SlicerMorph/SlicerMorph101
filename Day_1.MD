@@ -1,5 +1,9 @@
 # Day 1 Overview
 
+## What is MicroCT?
+Most of the data we will using throughout the course are microCT scans of biological specimens. [Please review this section on what microCT is, how it works, how data are generated, and how it compares to (as well as differs from) medical CTs.](https://github.com/SlicerMorph/Tutorials/blob/main/microCT/README.md)  
+
+
 We will go through the MorphoCloud functionality, Slicer user interface, Extension Manager, documentation and where to find help:
 
 Then, for the rest of the day we will try to go through as many of the modules listed below as possible. Most tutorials have their own small toy datasets specified in the tutorial itself. Sometimes I will demonstrate functionality using the "real" large (>2GB) datasets in `/media/share/MorphoCloudCephShare/SlicerMorph101` to practice with during the course. Keep in mind that this folder is **ReadOnly**. Anything you want to save, you need to write to `/media/volume/MyData`.
