@@ -27,12 +27,20 @@ Your MC instances are configured to be available 7/24 throughout the course. The
 
 #### MorphoCloud Desktop
 
-<img src="https://github.com/SlicerMorph/SlicerMorph101/blob/main/MCI_Desktop.png" width=1000>
-**A:** Shortcuts to commonly used tools and applications. From left to right, minimize/maximize open applications, 3D Slicer, Terminal (aka shell console) window, File Browser, Firefox web browser, Application Search, File Browser. </br>
-**B:** Right mouse clicking anywhere on desktop brings this menu, which lists all the applications and settings. </br>
-**C:** Shortcut to your persistent storage volume, **MyData**. The actual folder is /media/volume/MyData. </br>
-**D:** Side toolbar that gets activated by pressing the `CTRL (or CMD)` + `ALT` + `SHIFT` keys. It allows copy/paste into the remote session, browse and download files on the remote drive (only available if you are using the web browser to connect to MC. 
-**E:** Click on this icon anytime to extend your session for additional 4 hours (not needed for the course). </br>
+<img src="https://github.com/MorphoCloud/MorphoCloudInstances/blob/main/MCI_Desktop.png" width=1000>
+
+- **A:** Side toolbar that gets activated by pressing the `CTRL (or CMD)` +
+  `ALT` + `SHIFT` keys. It allows copy/paste into the remote session, browse and
+  download files on the remote drive (only available if you are using web browser to connect to MC).
+- **B:** Shortcuts to commonly used applications and to **MyData** storage
+  volume.
+- **C:** Displays list of available applications (searchable)
+- **D:** Right mouse clicking anywhere on desktop brings this menu, including
+  changing screen resolution (Display settings).
+- **E:** Click on this icon anytime to extend your session for additional 4
+  hours (not necessary for the course).
+
+
 
 #### Mapping the Sample Data Drive
 To be able to access the drive with the preloaded workshop data, you need to execute this command in a terminal window:
