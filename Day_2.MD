@@ -8,7 +8,7 @@ Animator:
 1. Use of consistent terminology and colors for segmentation: https://github.com/SlicerMorph/Tutorials/blob/main/Segmentation/colors-and-terms/README.md
 1. Do a self-paced exercise, and everybody will use the BrainTumor data from the Slicer's SampleData module to do the tutorial as written, which is here: https://github.com/SlicerMorph/Tutorials/tree/main/Segmentation
 3. Review some of the keyboard shortcuts available through SlicerMorph customizations. 
-3. Then we will interactively explore the turtle data for more of the segmentation tools in Slicer (If MorphoCloud is cooperating).
+3. Then we will interactively explore the turtle data for more of the segmentation tools in Slicer.
 
 Other modules we will investigate are:
 
