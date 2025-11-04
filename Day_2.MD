@@ -1,7 +1,13 @@
 # Day 2
 
 ## Recap & Q&A from Day 1
-Animator:
+Animator: Review how to set it up correctly.
+
+If you want to fix the ffmpeg issue and be able to create mp4s both from Animator and ScreenCapture module. Do these steps on your MC instance:
+1. Switch to `ScreenCapture` module
+2. Expand the **Advanced** section
+3. Find the field that says FFMPEG executable and paste this path `/media/share/MorphoCloudCephShare/ffmpeg/ffmpeg`
+Note that this path is only available if you have mapped the shared data drive (MorphoCloudCephShare) to your instance. The instructions to do so are at the main course web page. 
 
 
 ## Segmentation ##
