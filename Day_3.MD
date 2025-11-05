@@ -5,6 +5,11 @@
 * [Review the 3D Slicer segmentation recipes by Andras Lasso](https://lassoan.github.io/SlicerSegmentationRecipes/)
 * alternative open source web based 3d viewer for exported models (in glTF format): https://gltf-viewer.donmccurdy.com/
 
+**Useful command line tools in linux to track CPU, memory and GPU usage:**
+* `top -d 1` Shows the CPU and memory usage continuously with 1 second updates
+* `nvidia-smi -lms 1000` Shows the load on the GPU as well as applications using them
+
+## Topics for Day 3
 * **Markups:** https://github.com/SlicerMorph/Tutorials/tree/main/Markups_1
 * **Surface Toolbox & Dynamic Modeler** https://github.com/SlicerMorph/Tutorials/tree/main/Slicer_Modules/Surface_Toolbox
 * **SlicerANTsPy: Image Registration and atlas building** Sample Data to use is in `/media/share/MorphoCloudCephShare/SlicerMorph101/ANTSamples` folder. We will use these two samples: **129S1_SVLMJ** and **C57BL_J** (and their landmarks) as interactive examples. 
