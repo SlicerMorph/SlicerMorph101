@@ -3,6 +3,7 @@
 **Recap from Day 2:** Segmentation questions?
 
 * [Review the 3D Slicer segmentation recipes by Andras Lasso](https://lassoan.github.io/SlicerSegmentationRecipes/)
+* alternative open source web based 3d viewer for exported models (in glTF format): https://gltf-viewer.donmccurdy.com/
 
 * **Markups:** https://github.com/SlicerMorph/Tutorials/tree/main/Markups_1
 * **Surface Toolbox & Dynamic Modeler** https://github.com/SlicerMorph/Tutorials/tree/main/Slicer_Modules/Surface_Toolbox
