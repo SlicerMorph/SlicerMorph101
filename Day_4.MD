@@ -9,6 +9,14 @@
 
 ## MorphoDepot Practice:
 There are two **personas** in MorphoDepot: The people who are assigned tasks and contributing (e.g., students, lab members, remote collaborators), and repository owners (people who created the original data). You will first be a **student assigned a task**. To do that, do these steps:
+|Organ|Assignee|
+|------| ----------------| 
+| Liver	| Andres, Kaan, Pedro| 
+| Left Lung	| Busra, Leigha, Richardo| 
+| Right Lung| 	Domini, Marina| 
+| Heart	| Isa, Michal, Roberta| 
+| Kidneys| 	Jessica, Samuel, Ozlem| 
+| Brain	| Jonas, Pedro| 
 
 ### Student Workflow
 1. Go to https://github.com/amm554/E15-blank on the web browser, and open an issue. Your issue title should follow this convention:</br>
