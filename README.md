@@ -54,9 +54,19 @@ curl https://jetstream2.exosphere.app/exosphere/assets/scripts/mount_ceph.py | s
 ```
 This is a one-time setup, unless the instance has to be deleted and re-created. Share will be mapped to:
 
-`/media/share/MorphoCloudCephShare`
+`/media/share/MorphoCloudCephShare` and **it will be read-only**. 
 
-and **it will be read-only**. You should continue saving your data into the your **MyData** folder (located in `/media/volume/MyData`)
+For us to be able to exchange data for course related activities, you can map this temp share. Again in the terminal window, execute this command;
+```
+curl https://jetstream2.exosphere.app/exosphere/assets/scripts/mount_ceph.py | sudo python3 - mount \
+  --access-rule-name="TempShare-rw" \
+  --access-rule-key="AQCWhCJp1nOXEBAAHZQEbN/oxYOayqRdviDb7Q==" \
+  --share-path="149.165.158.38:6789,149.165.158.22:6789,149.165.158.54:6789,149.165.158.70:6789,149.165.158.86:6789:/volumes/_nogroup/58db8084-8292-4e76-a91f-dcbb65957e9a/7cafcb4b-c646-4431-a732-bb614cd1c6fd" \
+  --share-name="TempShare"
+```
+This will create the share `/media/share/TempShare`, where everyone was write access to. However, you should continue saving your data into the your **MyData** folder (located in `/media/volume/MyData`). Things in the TempShare might get overwritten or deleted by other participants. 
+
+
 
 #### Data transfer between your local computer and remote instance
 **Uploading to remote:** If your files are small (<100MB) and you have a stable connection, just dragging and dropping individual files to the browser window. Those files will be saved under your **MyData** volume, which is located at `/media/volumes/MyData/`. If your data is already on the cloud (e.g., MorphoSource, dropbox, google drive, etc), the fastest way is to use the Firefox browser built into the instance and directly download them to your remote session. Just remember to copy them to your `MyData`. </br>
